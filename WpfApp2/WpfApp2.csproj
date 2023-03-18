@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Logo-hd-rent-a-car.png" />
+    <None Remove="pngegg.png" />
+    <None Remove="pngwing.com.png" />
+    <None Remove="toppng.com-car-rental-icon-1213x1577.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Logo-hd-rent-a-car.png" />
+    <Resource Include="pngegg.png" />
+    <Resource Include="pngwing.com.png" />
+    <Resource Include="toppng.com-car-rental-icon-1213x1577.png" />
+  </ItemGroup>
+
+</Project>
